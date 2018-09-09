@@ -1,0 +1,86 @@
+* {
+    font-family: 'Rubik', sans-serif;
+}
+body {
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), to(#FFEFBA));
+    background: -webkit-linear-gradient(left, #FFFFFF, #FFEFBA);
+    background: -o-linear-gradient(left, #FFFFFF, #FFEFBA);
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+.heading {
+    font-size: 30px;
+    height: 50px;
+    width: 200px;
+    padding: 2px 0 2px 4px;
+    border-radius: 10px;
+}
+
+tr:nth-child(even){background-color: #FFEFBA;}
+
+table {
+    overflow-x: auto;
+}
+.btn-remove {
+    background-color: #fff;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.685);
+    color: #fff;
+    height: 50px;
+    font-size: 20px;
+}
+
+textarea {
+    height: 28px;
+    width: auto;
+    resize: none;
+}
+
+
+.from {
+    padding: 5px;
+    height: 100px;
+    width: 300px;
+    float: left; 
+    border: 3px solid black;
+    border-radius: 10px;  
+    margin-left: 2%; 
+
+}
+
+.subhead {
+    text-align: right;
+    margin: 25px;
+}
+
+.value {
+    border: 2px solid rgba(0, 0, 0, 0.541);
+    margin-left: 5px;
+}
+
+.to {
+    padding: 5px;
+    height: 100px;
+    width: 300px;
+    float: left;
+    border: 3px solid black;
+    border-radius: 10px;   
+    margin-left: 2%; 
+}
+
+.btn-add {
+    margin: 15px;
+}
+
+.btn-remove {
+    border: 3px solid black;
+}
+
+.download {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
